@@ -8,19 +8,19 @@
                         <form>
                             <div class="mb-3">
                                 <label for="name" class="form-label">الاسم الكامل</label>
-                                <input type="text" class="form-control" id="name" required>
+                                <input type="text" class="form-control" name="name" required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">البريد الإلكتروني</label>
-                                <input type="email" class="form-control" id="email" required>
+                                <input type="email" class="form-control" name="email" required>
                             </div>
                             <div class="mb-3">
                                 <label for="phone" class="form-label">رقم الهاتف</label>
-                                <input type="tel" class="form-control" id="phone">
+                                <input type="tel" class="form-control" name="phone">
                             </div>
                             <div class="mb-3">
                                 <label for="message" class="form-label">الرسالة</label>
-                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                                <textarea class="form-control" name="message" rows="5" required></textarea>
                             </div>
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary">
