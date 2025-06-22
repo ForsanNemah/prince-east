@@ -256,8 +256,11 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <i class="fas fa-coffee me-2"></i>
-                برنس الشرق
+                <i hidden class="fas fa-coffee me-2"></i>
+
+                 <img src="images/logo.png" alt="Logo" height="40" class="me-2">
+
+                   
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -286,8 +289,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h1>برنس الشرق اللوجستية</h1>
-                    <p class="lead">محمصو قهوة ومستوردون وبائعون لأفضل الماركات وأنواع المشروبات الشهيرة</p>
+                    <h1>مرحبا بكم في موقع برنس  الشرق اللوجستية</h1>
+
+
+                    <p class="lead"
+                    
+
+                    >  
+
+                      متخصصون في استيراد وتصدير جميع مستلزمات القهوة بجودة عالية.
+نوفر كل ما يحتاجه عشاق القهوة والمقاهي من أدوات ومكونات.
+                    
+                     
+                    
+                    
+                     
+                
+                
+                </p>
                     <a href="#products" class="btn btn-primary btn-lg">
                         <i class="fas fa-arrow-down me-2"></i>
                         اكتشف منتجاتنا
@@ -304,12 +323,22 @@
                 <div class="col-lg-8 mx-auto text-center">
                     <h2 class="section-title">نبذة عنا</h2>
                     <p class="about-text">
+
                         نحن في برنس الشرق اللوجستية نفخر بكوننا محمصي قهوة متخصصين ومستوردين لأجود أنواع البن من جميع أنحاء العالم. 
                         نقدم لعملائنا تجربة فريدة من خلال توفير أفضل الماركات العالمية والمشروبات الشهيرة، مع التزامنا بأعلى معايير الجودة والخدمة.
+
+
+                        
                     </p>
                     <p class="about-text">
-                        رؤيتنا هي أن نكون الخيار الأول لمحبي القهوة والمشروبات المميزة في المنطقة، من خلال تقديم منتجات عالية الجودة 
-                        وخدمة عملاء استثنائية تلبي وتتجاوز توقعات عملائنا الكرام.
+
+
+                        رؤيتنا  
+                        أن نكون الخيار الأول لمستلزمات القهوة في العالم العربي.
+ونسعى لرفع معايير الجودة والاحتراف في هذا المجال المتخصص.
+
+
+                        
                     </p>
                 </div>
             </div>
@@ -321,42 +350,8 @@
       <?php include "map.php" ; ?>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2 class="section-title text-center text-white">اتصل بنا</h2>
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <div class="contact-form">
-                        <form>
-                            <div class="mb-3">
-                                <label for="name" class="form-label">الاسم الكامل</label>
-                                <input type="text" class="form-control" id="name" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">البريد الإلكتروني</label>
-                                <input type="email" class="form-control" id="email" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="phone" class="form-label">رقم الهاتف</label>
-                                <input type="tel" class="form-control" id="phone">
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label">الرسالة</label>
-                                <textarea class="form-control" id="message" rows="5" required></textarea>
-                            </div>
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="fas fa-paper-plane me-2"></i>
-                                    إرسال الرسالة
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
+        <?php include "form.php" ; ?>
     <!-- Footer -->
 
       <?php include "footer.php" ; ?>
@@ -411,11 +406,13 @@
         });
 
         // Form submission
+        /*
         document.querySelector('form').addEventListener('submit', function(e) {
             e.preventDefault();
             alert('شكراً لك! تم إرسال رسالتك بنجاح. سنتواصل معك قريباً.');
             this.reset();
         });
+        */
     </script>
 </body>
 </html>

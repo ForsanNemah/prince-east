@@ -3,7 +3,7 @@
     <h2 class="section-title text-center mb-5">منتجاتنا المميزة</h2>
     <div class="row g-4 justify-content-center">
       <!-- منتج -->
-      <div class="col-lg-4 col-md-6">
+      <div hidden class="col-lg-4 col-md-6">
         <div class="card product-card shadow-sm h-100">
           <img src="images/brands/orcafe.png" class="card-img-top" alt="OR Cafee" />
           <div class="card-body text-center">
@@ -24,8 +24,45 @@
         </div>
       </div>
 
-      <!-- Frappe -->
+
+
+
+
+
+
+
+
+
+
+  <!-- Thirst -->
       <div class="col-lg-4 col-md-6">
+        <div class="card product-card shadow-sm h-100">
+          <img src="images/brands/thirst.png" class="card-img-top" alt="Thirst" />
+          <div class="card-body text-center">
+            <h5 class="card-title">مشروبات Thirst</h5>
+            <p class="card-text">مجموعة مشروبات ثيرست المنعشة والمتنوعة</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Frappe -->
+      <div hidden class="col-lg-4 col-md-6">
         <div class="card product-card shadow-sm h-100">
           <img src="images/brands/frappe.png" class="card-img-top" alt="Frappe" />
           <div class="card-body text-center">
@@ -36,7 +73,7 @@
       </div>
 
       <!-- Matcha -->
-      <div class="col-lg-4 col-md-6">
+      <div hidden class="col-lg-4 col-md-6">
         <div class="card product-card shadow-sm h-100">
           <img src="images/brands/matcha.png" class="card-img-top" alt="Matcha" />
           <div class="card-body text-center">
@@ -51,8 +88,17 @@
         <div class="card product-card shadow-sm h-100">
           <img src="images/brands/sp.png" class="card-img-top" alt="Hario" />
           <div class="card-body text-center">
-            <h5 class="card-title">قهوة مختصة هاريو</h5>
-            <p class="card-text">قهوة هاريو المختصة بأدوات التحضير المتقدمة</p>
+            <h5 class="card-title"> فلاتر هاريو    </h5>
+            <p class="card-text">   
+              
+          
+          
+          هاريو فلاتر02 ورقية بيضاء 100 حبة
+          
+          
+          
+          
+          </p>
           </div>
         </div>
       </div>
@@ -79,16 +125,11 @@
         </div>
       </div>
 
-      <!-- Thirst -->
-      <div class="col-lg-4 col-md-6">
-        <div class="card product-card shadow-sm h-100">
-          <img src="images/brands/thirst.png" class="card-img-top" alt="Thirst" />
-          <div class="card-body text-center">
-            <h5 class="card-title">مشروبات Thirst</h5>
-            <p class="card-text">مجموعة مشروبات ثيرست المنعشة والمتنوعة</p>
-          </div>
-        </div>
-      </div>
+    
+
+
+
+
     </div>
   </div>
 </section>
