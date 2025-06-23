@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-6 mx-auto">
                     <div class="contact-form">
-                        <form>
+                        <form action="post_to_google_sheet.php" method="POST"> 
                             <div class="mb-3">
                                 <label for="name" class="form-label">الاسم الكامل</label>
                                 <input type="text" class="form-control" name="name" required>
@@ -20,10 +20,10 @@
                             </div>
                             <div class="mb-3">
                                 <label for="message" class="form-label">الرسالة</label>
-                                <textarea class="form-control" name="message" rows="5" required></textarea>
+                                <textarea class="form-control" name="msg" rows="5" required></textarea>
                             </div>
                             <div class="text-center">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary" id="submitBtn">
                                     <i class="fas fa-paper-plane me-2"></i>
                                     إرسال الرسالة
                                 </button>
@@ -34,3 +34,14 @@
             </div>
         </div>
     </section>
+
+
+    <script>
+    const form = document.querySelector('form');
+    const submitBtn = document.getElementById('submitBtn');
+
+    form.addEventListener('submit', function () {
+        submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span> جاري الإرسال... انتظر قليلاً';
+        submitBtn.disabled = true; // لمنع الضغط مرتين
+    });
+</script>

@@ -14,15 +14,17 @@
             line-height: 1.6;
         }
         
-        .hero-section {
-            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/hero-bg.jpg') no-repeat center center/cover;
-            color: white;
-            padding: 120px 0;
-            text-align: center;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-        }
+ 
+.hero-section {
+    background: linear-gradient(rgb(92 59 59 / 60%), rgb(225 199 199 / 60%)), url(images/hero-bg.gif) no-repeat center center / cover;
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+    min-height: 120vh;
+    display: flex
+;
+    align-items: center;
+}
         
         .hero-section h1 {
             font-family: 'Amiri', serif;
@@ -247,6 +249,9 @@
             }
         }
     </style>
+
+
+<?php include "info.php";?>
 </head>
 <body>
 
