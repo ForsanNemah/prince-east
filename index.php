@@ -250,6 +250,9 @@
         }
     </style>
 
+ 
+
+
 
 <?php include "info.php";?>
 </head>
@@ -284,6 +287,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">اتصل بنا</a>
                     </li>
+
+
+       <li class="nav-item">
+    <a class="nav-link" href="en/index.php" title="English">EN</a>
+</li>
+
+
+
                 </ul>
             </div>
         </div>

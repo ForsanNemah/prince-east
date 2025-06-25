@@ -119,8 +119,8 @@
         <div class="card product-card shadow-sm h-100">
           <img src="images/brands/bon.png" class="card-img-top" alt="Bon" />
           <div class="card-body text-center">
-            <h5 class="card-title">بون</h5>
-            <p class="card-text">منتجات بون عالية الجودة والطعم المميز</p>
+            <h5 class="card-title">فلاتر بون </h5>
+            <p class="card-text">منتجات بون عالية الجودة    </p>
           </div>
         </div>
       </div>
